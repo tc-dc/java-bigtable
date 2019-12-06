@@ -249,14 +249,7 @@ public final class Query implements Serializable {
    */
   @InternalApi
   public ReadRowsRequest toProto(RequestContext requestContext) {
-    String tableName =
-        NameUtil.formatTableName(
-            requestContext.getProjectId(), requestContext.getInstanceId(), tableId);
-
-    return builder
-        .setTableName(tableName)
-        .setAppProfileId(requestContext.getAppProfileId())
-        .build();
+    return builder.build();
   }
 
   /**
