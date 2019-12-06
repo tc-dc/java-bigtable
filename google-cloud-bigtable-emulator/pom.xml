@@ -14,7 +14,7 @@
   <parent>
     <groupId>com.google.cloud</groupId>
     <artifactId>google-cloud-bigtable-parent</artifactId>
-    <version>1.7.1</version><!-- {x-version-update:google-cloud-bigtable:current} -->
+    <version>1.7.1-twttr1</version><!-- {x-version-update:google-cloud-bigtable:current} -->
   </parent>
   <scm>
     <connection>scm:git:git@github.com:googleapis/java-bigtable.git</connection>
